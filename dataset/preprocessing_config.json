@@ -1,6 +1,6 @@
 {
     "encoding_method": "Ordinal Encoding",
-    "scaling_method": "StandardScaler",
+    "scaling_method": "None",
     "test_size": 0.2,
     "categorical_columns": [
         "ed"
