@@ -58,10 +58,10 @@ st.subheader(
 
 st.dataframe(
     pd.DataFrame({
-        "Setting": config.keys(),
-        "Value": config.values()
+        "Setting": list(config.keys()),
+        "Value": [str(v) for v in config.values()]  # Diubah jadi string agar pyarrow tidak bingung
     }),
-    use_container_width=True,
+    width="stretch",  # Sekalian perbaiki warning use_container_width
     hide_index=True
 )
 
