@@ -1,6 +1,6 @@
 {
     "encoding_method": "Ordinal Encoding",
-    "scaling_method": "None",
+    "scaling_method": "MinMaxScaler",
     "test_size": 0.2,
     "categorical_columns": [
         "ed"
@@ -9,12 +9,13 @@
         "income",
         "age",
         "employ",
-        "address",
         "debtinc",
         "creddebt",
         "othdebt"
     ],
-    "dropped_columns": [],
+    "dropped_columns": [
+        "address"
+    ],
     "rows": 700,
-    "columns": 9
+    "columns": 8
 }
