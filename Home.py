@@ -16,7 +16,7 @@ st.subheader("Application Features")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-		st.container(border=True)
+	with st.container(border=True):
 		st.markdown(
 				"""
 				### Dataset Analysis
@@ -29,7 +29,7 @@ with col1:
 		)
 
 with col2:
-		st.container(border=True)
+	with st.container(border=True):
 		st.markdown(
 				"""
 				### Exploratory Data Analysis
@@ -42,7 +42,7 @@ with col2:
 		)
 
 with col3:
-		st.container(border=True)
+	with st.container(border=True):
 		st.markdown(
 				"""
 				### Machine Learning
@@ -141,7 +141,7 @@ st.subheader("Team Members")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-		st.container(border=True)
+	with st.container(border=True):	
 		st.markdown(
 				"""
 				#### Abraham Gregorius Anderson Thio
@@ -149,7 +149,7 @@ with col1:
 		)
 
 with col2:
-		st.container(border=True)
+	with st.container(border=True):
 		st.markdown(
 				"""
 				#### Alwan Athallah Mumtaz
@@ -157,7 +157,7 @@ with col2:
 		)
 
 with col3:
-		st.container(border=True)
+	with st.container(border=True):
 		st.markdown(
 				"""
 				#### Stanislaus Alva Jufinto
