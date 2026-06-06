@@ -195,7 +195,9 @@ elif visualization == "Correlation Heatmap":
         data=go.Heatmap(
             z=corr.values,
             x=corr.columns,
-            y=corr.columns
+            y=corr.columns,
+            text=corr.round(2).values,
+            texttemplate="%{text}",
         )
     )
 
