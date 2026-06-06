@@ -62,40 +62,40 @@ col1, col2, col3, col4 = st.columns(4)
 with col1:
 		st.info(
 				"""
-				**Dataset & EDA
-				*Dataset Overview
-				*Feature Understanding
-				*Data Exploration
+				#Dataset & EDA
+				- Dataset Overview
+				- Feature Understanding
+				- Data Exploration
 				"""
 		)
 
 with col2:
 		st.info(
 				"""
-				**Preprocessing
-				*Categorical Encoding
-				*Train-Test Split
-				*Feature Scaling
+				#Preprocessing
+				- Categorical Encoding
+				- Train-Test Split
+				- Feature Scaling
 				"""
 		)
 
 with col3:
 		st.info(
 				"""
-				**Model Training
-				*Logistic Regression
-				*Random Forest
-				*Gradient Boosting
+				#Model Training
+				- Logistic Regression
+				- Random Forest
+				- Gradient Boosting
 				"""
 		)
 
 with col4:
 		st.info(
 				"""
-				**Prediction
-				*Interactive Demo
-				*Risk Analysis
-				*Recommendation
+				#Prediction
+				- Interactive Demo
+				- Risk Analysis
+				- Recommendation
 				"""
 		)
 
